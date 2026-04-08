@@ -1,9 +1,10 @@
+# all imports 
 import os
 import zipfile
 import pandas as pd
 from pathlib import Path
 
-
+# Kaggle connector.
 class Kaggle:
     """
     Kaggle Dataset Connector for DataVyn Labs
