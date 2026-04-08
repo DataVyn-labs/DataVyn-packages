@@ -1,8 +1,10 @@
+# imports 
 import os
 import pandas as pd
 from dotenv import load_dotenv
 
 
+# Snowflake connector.
 class Snowflake:
     """
     Snowflake Connector for DataVyn Labs
