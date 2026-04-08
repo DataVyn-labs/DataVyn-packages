@@ -1,5 +1,6 @@
 from setuptools import setup, find_packages
 
+# Setup configuration for the datavyn package.
 setup(
     name="datavyn",
     version="0.1.0",
