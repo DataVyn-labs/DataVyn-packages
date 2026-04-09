@@ -383,4 +383,4 @@ Pull requests are welcome! If you'd like to add a new connector or improve an ex
 
 ---
 
-Built with ❤️ by [DataVyn Labs](https://github.com/datavynlabs)
+Built with ❤️ by [DataVyn Labs](https://github.com/DataVyn-labs)
