@@ -26,6 +26,27 @@ df = PostgreSQL(host="...", database="...", user="...", password="...").load_tab
 ```
 
 ---
+## Project File Structure
+
+```File Structure
+DataVyn packages/          
+├── datavyn/               
+│   ├── __init__.py
+│   ├── kaggle.py
+│   ├── snowflake.py
+│   ├── postgres.py
+│   ├── mongodb.py
+│   ├── mysql.py
+│   ├── aws_s3.py
+│   ├── gcs.py
+│   └── bigquery.py
+├── setup.py
+├── LICENSE
+├── pyproject.toml
+└── README.md             
+```
+
+---
 
 ## Installation
 
