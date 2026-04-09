@@ -371,6 +371,48 @@ df = connector.load_table("big_table", columns=["id", "name", "amount"])
 
 ---
 
+## Local Setup (For Development)
+ 
+Want to run DataVyn locally or contribute to it? Follow these steps:
+ 
+**Step 1 — Clone the repository**
+```bash
+git clone https://github.com/DataVyn-labs/DataVyn-packages.git
+cd datavyn packages
+```
+ 
+**Step 2 — Create a virtual environment**
+```bash
+# Windows
+python -m venv venv
+venv\Scripts\activate
+ 
+# Mac / Linux
+python -m venv venv
+source venv/bin/activate
+```
+ 
+**Step 3 — Install the package locally in editable mode**
+```bash
+pip install -e .
+```
+ 
+**Step 4 — Install dependencies for the connectors you need**
+```bash
+pip install datavyn[kaggle]     # for Kaggle
+pip install datavyn[postgres]   # for PostgreSQL
+pip install datavyn[all]        # for everything
+```
+ 
+**Step 5 — You're good to go!**
+```python
+from datavyn import Kaggle, PostgreSQL, MySQL
+```
+ 
+> **Note:** The `-e` flag installs the package in editable mode — any changes you make to the source code are reflected immediately without reinstalling.
+ 
+---
+
 ## License
 
 MIT License — free to use in personal and commercial projects.
