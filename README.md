@@ -379,7 +379,7 @@ MIT License — free to use in personal and commercial projects.
 
 ## Contributing
 
-Pull requests are welcome! If you'd like to add a new connector or improve an existing one, feel free to open an issue or submit a PR on [GitHub](https://github.com/datavynlabs/datavyn).
+Pull requests are welcome! If you'd like to add a new connector or improve an existing one, feel free to open an issue or submit a PR on [GitHub](https://github.com/DataVyn-labs/DataVyn-packages).
 
 ---
 
